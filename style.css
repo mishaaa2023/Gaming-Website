@@ -1,0 +1,66 @@
+
+#section {
+  background-image: url('images/circle-scatter-haikei\ \(1\).png');
+}
+main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url('images/circle-scatter-haikei\ \(1\).png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+    color: white;
+    font-size: 1.5rem;
+}
+
+.bree-serif-regular {
+    font-family: "Bree Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+#btn-container{
+    padding: 6px;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+}
+  .btn {
+    margin-left: 20px;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    background: rgb(255, 255, 255);
+    color: #001220;
+    border-radius: .5rem;
+    border-bottom: 2px solid #001220;
+    border-right: 2px solid #001220;
+    border-top: 2px solid white;
+    border-left: 2px solid white;
+    transition-duration: 1s;
+    transition-property: border-top, 
+       border-left, 
+       border-bottom,
+       border-right,
+       box-shadow;
+   }
+   
+   .btn:hover {
+    border-top: 2px solid #001220;
+    border-left: 2px solid #001220;
+    border-bottom: 2px solid #A7233A;
+    border-right: 2px solid  #A7233A;
+    box-shadow:  #A7233A 5px 5px,  #A7233A 10px 10px, #001220 15px 15px;
+   }
+
+   @media (max-width:406px) {
+    #btn-container{
+     
+      display: flex;
+     flex-direction: column;
+  }
+   }
